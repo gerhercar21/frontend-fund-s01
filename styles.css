@@ -44,6 +44,7 @@ li{
     width: 15%;
 }
 
+/* Aquí tuve dudas con la alineación, me quedó más arriba que el menú y tuve que agregar margin, pero estoy seguro que no es recomendable */
 .logo > img {
     width: 15%;
     margin: 20px;
@@ -56,6 +57,7 @@ li{
     font-weight: 500;
 }
 
+/* Aquí tuve dudas con la alineación, me quedó más arriba que el menú y tuve que agregar margin-top, pero estoy seguro que no es recomendable */
 .actions {
     margin-top: 30px;
     width: 15%;
