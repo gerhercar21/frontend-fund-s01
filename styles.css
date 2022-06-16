@@ -5,12 +5,14 @@ body {
 h1 {
     color: #025157;
     text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
 }
 
 p {
     color: #8b8b8bcc;
     text-align: center;
-    font-family: Verdana;
+    font-family: 'Fjalla One', sans-serif;    
     font-size: 20px;
 }
 
