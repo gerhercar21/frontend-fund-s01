@@ -102,7 +102,7 @@ li{
 }
   
 .publish h3 {
-    font-family: "Alegreya", serif;
+    font-family: 'Bebas Neue', cursive;
     font-size: 40px;
     line-height: 48px;
     color: #025157;
@@ -115,6 +115,7 @@ li{
     line-height: 1.5;
     margin-bottom: 20px;
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
 }
   
 .publish > form {
@@ -124,6 +125,9 @@ li{
 .publish > form p {
     color: #025157;
     margin-right: 18px;
+    margin-top: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
 }
   
 .promo {
@@ -133,18 +137,154 @@ li{
     align-items: center;
 }
   
-iframe {
-    display: flex;
-    margin: auto;
-}
-  
 .explanatory-video {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 13%;
 }
   
 .explanatory-video img {
     width: 120px;
     margin-top: 10px;
+}
+
+.ecommerce {
+    display: flex;
+    background-color: #a1d683;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% 15%;
+}
+
+.brands {
+    flex: 2;
+    padding-right: 100px;
+}
+
+.brands h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 51px;
+    line-height: 61px;
+    margin-bottom: 0%;
+    color: #025157;
+}
+
+.brands p {
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.brands button {
+    height: 45px;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 12px 12px 6px 12px;
+    font-weight: 600;
+    margin-left: 0;
+}
+
+.brands img {
+    width: 500px;
+    max-width: 100%;
+    margin-top: 32px;
+}
+
+.carrusel {
+    flex: 1;
+}
+
+.magazine {
+    max-width: 370px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.magazine-photos {
+    position: relative;
+}
+
+.magazine-photos img {
+    width: 100%;
+    max-height: 16vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.mambe-logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 20px;
+    bottom: -20px;
+    background-color: #f9da73;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mambe-logo img {
+    width: 100%;
+    max-height: 16vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.magazine-text {
+    padding: 25px;
+}
+
+.magazine-text h3 {
+    color: #025157;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.magazine-text h2 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.infor {
+    margin-top: 0;
+    color: #343434;
+    font-size: 16px;
+}
+
+.infor p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.cases {
+    padding: 25px;
+    margin-bottom: 20px;
+    background-color: unset;
+    border-top: unset;
+}
+
+.cases button {
+    display: block;
+    margin-left: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 20px;
+    width: 100%;
 }
