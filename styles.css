@@ -9,18 +9,6 @@ h1 {
     font-size: 50px;
 }
 
-h2 {
-    color: #025157;
-    text-align: left;
-    font-family: 'Bebas Neue', cursive;
-}
-
-h3 {
-    color: #000;
-    text-align: left;
-    font-family: Verdana, sans-serif;    
-}
-
 /* Se agregaron Fonts de Google aquí y en h1, en la de aquí la inicial era Verdana  */
 p {
     color: #8b8b8bcc;
@@ -45,6 +33,14 @@ li{
     display: inline;
     margin-left: 25px;
     margin-right: 25px;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
 }
 
 .header > * {
@@ -101,6 +97,54 @@ li{
     border-radius: 5px;
 }
 
-/* section > p {
+.publish {
+    margin-left: 30px;
+}
+  
+.publish h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
     text-align: left;
-} */
+}
+  
+.publish > p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: left;
+}
+  
+.publish > form {
+    display: flex;
+  }
+  
+.publish > form p {
+    color: #025157;
+    margin-right: 18px;
+}
+  
+.promo {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+  
+iframe {
+    display: flex;
+    margin: auto;
+}
+  
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+}
