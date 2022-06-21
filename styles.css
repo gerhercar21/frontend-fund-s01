@@ -1,13 +1,14 @@
 @media (max-width: 575px) {
-    .navbar,
-    .actions {
-      display: none;
+    body {
+      background-color: yellow;
     }
 }
 
 body {
     background-color: #FFFbF7;
 }
+
+/* Se agregaron Fonts de Google aquí y en h1, en la de aquí la inicial era Verdana  */
 
 h1 {
     color: #025157;
@@ -16,11 +17,10 @@ h1 {
     font-size: 50px;
 }
 
-/* Se agregaron Fonts de Google aquí y en h1, en la de aquí la inicial era Verdana  */
 p {
     color: #8b8b8bcc;
     text-align: center;
-    font-family: 'Fjalla One', sans-serif;    
+    font-family: Arial, Helvetica, sans-serif;    
     font-size: 20px;
 }
 
@@ -66,7 +66,7 @@ li{
 /* Aquí tuve dudas con la alineación, me quedó más arriba que el menú y tuve que agregar margin, pero estoy seguro que no es recomendable */
 .logo > img {
     width: 15%;
-    margin: 20px;
+    margin: 15%;
 }
 
 .navbar {
@@ -76,9 +76,7 @@ li{
     font-weight: 500;
 }
 
-/* Aquí tuve dudas con la alineación, me quedó más arriba que el menú y tuve que agregar margin-top, pero estoy seguro que no es recomendable */
 .actions {
-    margin-top: 30px;
     width: 15%;
     text-align: left;
     font-size: 14px;
