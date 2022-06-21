@@ -27,6 +27,7 @@ p {
 button {
     color: #FFF;
     background-color: #025157;
+    border: none;
 }
 
 .header {
