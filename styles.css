@@ -298,8 +298,10 @@ li{
 .services {
     height: 100vh;
     display: grid;
+    /* Misma forma pero extendida
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; */
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
     gap: 2rem;
     padding: 4rem 10rem 6rem 10rem;  
     background: #025157;
