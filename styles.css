@@ -1,8 +1,46 @@
 @media (max-width: 575px) {
-    body {
-      background-color: yellow;
+    .navbar ul,
+    header .actions {
+      display: none;
+    }
+
+    body h1 {
+        font-size: 30px;
+    }
+
+    body p {
+        font-size: 15px;
+    }
+
+    body .main {
+        margin-top: 100px;
+    }
+
+    body .fixed-header {
+        position: absolute;
+    }
+
+    section .banner1 > img {
+        width: 100%;
+    }
+
+    section .banner2 > img {
+        width: 100%;
     }
 }
+
+@media (max-width: 575px) {
+    body section .promo {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    body section .explanatory-video {
+        display: none;
+    }
+}
+ 
+
 
 body {
     background-color: #FFFbF7;
@@ -102,6 +140,14 @@ li{
     padding-bottom: 12px;
     border: 0;
     border-radius: 5px;
+}
+
+.banner1 > img {
+    width: 50%;
+}
+
+.banner2 > img {
+    width: 70%;
 }
 
 .publish {
@@ -465,7 +511,7 @@ li{
 }
 
 .steps {
-    height: 50vh;
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2%;
@@ -482,7 +528,7 @@ li{
 }
 
 .steps p {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
@@ -502,7 +548,7 @@ li{
 }
 
 .steps figure img {
-    width: 100px;
+    width: 100%;
     display: flex;
     position: relative;
     align-items: stretch;
@@ -514,6 +560,7 @@ li{
     border-radius: 5px;
     padding: 1rem;
     border: 1px solid #dadada;
+    overflow: hidden;
 }
 
 .promote {
@@ -521,6 +568,7 @@ li{
     border-radius: 5px;
     padding: 1rem;
     border: 1px solid #dadada;
+    overflow: hidden;
 }
 
 .capture {
@@ -528,6 +576,7 @@ li{
     border-radius: 5px;
     padding: 1rem;
     border: 1px solid #dadada;
+    overflow: hidden;
 }
 
 .measure {
@@ -535,4 +584,5 @@ li{
     border-radius: 5px;
     padding: 1rem;
     border: 1px solid #dadada;
+    overflow: hidden;
 }
