@@ -49,6 +49,7 @@ li{
     left: 0;
     right: 0;
     background-color: #fffbf7;
+    z-index: 1030;
 }
 
 .header > * {
