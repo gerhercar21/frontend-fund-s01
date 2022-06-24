@@ -651,7 +651,6 @@ li{
 
     .box-card {
         padding: 1rem;
-        align-items: flex-start;
     }
 
     .box-img {
@@ -678,6 +677,15 @@ li{
     .box-content1 img {
         display: none;
     }
+
+    /* .box-content1 img {
+        position: relative;
+        margin-left: 90%;
+    }
+
+    .box-content1 figure {
+        margin-top: 2rem;
+    } */
 
     .box-content2  {
         padding-right: 5px;
@@ -740,6 +748,83 @@ li{
 
     .box-content4 img {
         display: none;
+    }
+
+    .howtodo {
+        padding-top: 2rem;
+    }
+
+    .header-howtodo h2 {
+        font-size: 25px;
+    }
+
+    .header-howtodo p,
+    .header-howtodo a {
+        font-size: 13px;
+    }
+
+    .header-howtodo p {
+        max-width: 80%;
+    }
+
+    .header-howtodo button {
+        margin-left: 27%;
+        font-size: 14px;
+        padding: 7px 20px;
+    }
+
+    .steps {
+        display: grid;
+        grid-template: repeat(4, 1fr) / 1fr;
+    }
+
+    .steps p {
+        font-size: 13px;
+        margin-bottom: 1rem;
+    }
+
+    .steps a {
+        font-size: 15px;
+    }
+
+    .publishstep img {
+        display: none;
+    }
+    
+    .publishstep figure {
+        width: 50%;
+        margin-left: 4rem;
+    }
+
+    .promote img {
+        display: none;
+    }
+    
+    .promote figure {
+        width: 50%;
+        margin-left: 4rem;
+    }
+
+    .capture img {
+        display: none;
+    }
+    
+    .capture figure {
+        width: 50%;
+        margin-left: 4rem;
+    }
+
+    .measure {
+        padding-bottom: 2rem;
+    }
+
+    .measure img {
+        display: none;
+    }
+    
+    .measure figure {
+        width: 50%;
+        margin-left: 4rem;
     }
 /* 
     .promo {
