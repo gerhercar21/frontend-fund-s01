@@ -635,6 +635,15 @@ li{
 
     .explanatory-video {
         width: 100%;
+        align-items: stretch;
+    }
+
+    .explanatory-video img {
+        display: none;
+    }
+
+    .ecommerce {
+        display: none;
     }
 
     .publish > h3 {
