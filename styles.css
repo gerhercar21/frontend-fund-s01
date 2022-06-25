@@ -18,6 +18,10 @@ p {
     font-size: 20px;
 }
 
+.main button {
+    margin-bottom: 1rem;
+}
+
 button {
     color: #FFF;
     background-color: #025157;
@@ -172,6 +176,8 @@ li{
     width: 70%;
     margin: 100px auto;
     align-items: center;
+    margin-top: 0;
+    margin-bottom: 4rem;
 }
   
 .explanatory-video {
