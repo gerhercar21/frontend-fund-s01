@@ -220,7 +220,7 @@ li{
     height: 45px;
     border-radius: 8px;
     font-size: 14px;
-    padding: 12px 12px 6px 12px;
+    padding: 12px 12px 12px 12px;
     font-weight: 600;
     margin-left: 0;
 }
@@ -343,25 +343,25 @@ li{
 }
 
 .services h2 {
-    margin-bottom: 0;
+    margin-bottom: 1%;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 100%;
     font-weight: 100;
 }
 
 .services p {
-    margin-bottom: 1rem;
+    margin-bottom: 1%;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 80%;
 }
 
 .services a {
     border: none;
     color: #a1d683;
     text-align: left;
-    font-size: 15px;
+    font-size: 80%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 550;
     text-decoration: none;
@@ -377,12 +377,13 @@ li{
 }
 
 .box-content1 {
+    padding-left: 0%;
     padding-right: 3rem;
     flex: 2;
 }
 
 .box-content1 figure {
-    margin: 0;
+    padding-bottom: 1%;
 }
 
 .box-content1 img {
@@ -393,12 +394,13 @@ li{
 }
 
 .box-content2 {
+    padding-left: 0%;
     padding-right: 3rem;
     flex: 2;
 }
 
 .box-content2 figure {
-    margin: 0;
+    padding-bottom: 1%;
 }
 
 .box-content2 img {
@@ -410,12 +412,13 @@ li{
 
 
 .box-content3 {
+    padding-left: 0%;
     padding-right: 3rem;
     flex: 2;
 }
 
 .box-content3 figure {
-    margin: 0;
+    padding-bottom: 1%;
 }
 
 .box-content3 img {
@@ -427,12 +430,13 @@ li{
 
 
 .box-content4 {
+    padding-left: 0%;
     padding-right: 3rem;
     flex: 2;
 }
 
 .box-content4 figure {
-    margin: 0;
+    padding-bottom: 1%;
 }
 
 .box-content4 img {
@@ -456,7 +460,7 @@ li{
 }
 
 .box-img img {
-    width: 50vh;
+    width: 40vh;
     border: 1px solid #dadada;
     border-radius: 5px;
     box-shadow: 0 0 15px rgb(203, 199, 199);
@@ -473,6 +477,7 @@ li{
     text-align: center;
     font-size: 4rem;
     margin-bottom: 1rem;
+    margin-top: 5%;
 }
 
 .header-howtodo p {
@@ -528,7 +533,7 @@ li{
 }
 
 .steps img {
-    width: 2rem;
+    width: 10%;
 }
 
 .steps figure img {
@@ -547,12 +552,20 @@ li{
     overflow: hidden;
 }
 
+.publishstep > img {
+    opacity: 0.5;
+}
+
 .promote {
     background: #fff;
     border-radius: 5px;
     padding: 1rem;
     border: 1px solid #dadada;
     overflow: hidden;
+}
+
+.promote > img {
+    opacity: 0.5;
 }
 
 .capture {
@@ -563,6 +576,10 @@ li{
     overflow: hidden;
 }
 
+.capture > img {
+    opacity: 0.5;
+}
+
 .measure {
     background: #fff;
     border-radius: 5px;
@@ -571,11 +588,18 @@ li{
     overflow: hidden;
 }
 
+.measure > img {
+    opacity: 0.5;
+}
+
+
+/* Celular */
+
 @media (max-width: 575px) {
-    /* .navbar,
+    .navbar,
     .actions {
-      display: none;
-    } */
+      text-align: center;
+    }
 
     h1 {
         font-size: 30px;
@@ -601,9 +625,6 @@ li{
     .banner2 > img {
         width: 100%;
     }
-}
-
-@media (max-width: 575px) {
 
     .promo {
         flex-direction: column-reverse;
@@ -622,7 +643,12 @@ li{
     }
     
     .publish > form > div > input {
-        width: 50%;
+        width: 60%;
+    }
+
+    .publish form p {
+        font-size: 90%;
+        margin-bottom: 1%;
     }
 
     .publish p {
@@ -669,7 +695,7 @@ li{
     }
 
     .brands img {
-        margin-bottom: 4rem;
+        margin-bottom: 3rem;
     }
 
     .magazine-photos img {
@@ -721,15 +747,6 @@ li{
         width: 10%;
         margin-bottom: 1rem;
     }
-
-    /* .box-content1 img {
-        position: relative;
-        margin-left: 90%;
-    }
-
-    .box-content1 figure {
-        margin-top: 2rem;
-    } */
 
     .box-content2  {
         padding-right: 5px;
@@ -809,10 +826,6 @@ li{
         margin-bottom: 1rem;
     }
 
-    .howtodo {
-        padding-top: 2rem;
-    }
-
     .header-howtodo h2 {
         font-size: 25px;
     }
@@ -885,14 +898,206 @@ li{
         width: 50%;
         margin-left: 4rem;
     }
-/* 
+}
+
+/* Vista Landscape */
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .main {
+        margin-top: 5rem;
+    }
+
+    .main  h1 {
+        font-size: 200%;
+    }
+
+    .main p {
+        font-size: 100%;
+        margin: 1rem;
+    }
+
     .promo {
-        display: flex;
-        flex-direction: row-reverse;
+        flex-direction: column-reverse;
+        width: 80%;
+        margin: 3rem 2rem 2rem 2rem;
+    }
+
+    .publish {
         width: 100%;
     }
 
+    .publish > form p {
+        align-self: center;
+        margin-right: .6rem;
+    }
+
+    .publish form p {
+        font-size: 90%;
+        margin-bottom: 1%;
+    }
+
+    .publish p {
+        font-size: .8rem;
+    }
+
     .explanatory-video {
-        display: none;
-    } */
+        margin-top: 10%;
+    }
+
+    .ecommerce {
+        padding: 5%;
+        align-items: flex-start;
+    }
+
+    .ecommerce h2 {
+        font-size: 200%;
+        line-height: 1.2;
+        padding-bottom: 3%;
+    }
+
+    .ecommerce p {
+        font-size: 90%;
+        padding-bottom: 3%;
+    }
+
+    .brands {
+        padding-right: 7%;
+    }
+
+    .brands img {
+        margin-top: 1rem;
+    }
+
+    .magazine {
+        width: 90%;
+        right: -5%;
+    }
+    
+    .magazine-photos img {
+        max-height: none;
+    }
+
+    .magazine-text {
+        padding: 2rem 1rem 1rem 1rem;
+    }
+
+    .magazine-text h3 {
+        font-size: 90%;
+    }
+
+    .magazine-text h2 {
+        font-size: 100%;
+        margin-bottom: 8%;
+    }
+
+    .mambe-logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .infor {
+        font-size: 90%;
+    }
+
+    .cases {
+        padding: 0 1rem 1rem 1rem;
+        margin: 0;
+    }
+
+    .cases button {
+        font-size: 80%;
+        padding: .5rem 1rem;
+    }
+
+    .services {
+        grid-template: repeat(4, 1fr) / 1fr;
+        padding: 2rem 2rem 2rem 2rem;
+        gap: 2rem;
+        height: 100%;
+    }
+
+    .services h2 {
+        font-size: 110%;
+    }
+
+    .services a {
+        font-size: 85%;
+    }
+
+    .services p {
+        font-size: 85%;
+    }
+
+    .box-card {
+        /* flex-direction: column; */
+        align-items: center;
+    }
+
+    .box-img img {
+        width: 150%;
+        opacity: 0.8;
+    }
+
+    .header-howtodo h2 {
+        font-size: 200%;
+    }
+
+    .header-howtodo p,
+    .header-howtodo a {
+        font-size: 100%;
+    }
+
+    .header-howtodo p {
+        max-width: 90%;
+    }
+
+    .header-howtodo button {
+        margin-left: 37%;
+        font-size: 14px;
+        padding: .5rem 1rem;
+    }
+
+    .steps {
+        display: grid;
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        padding: 5%
+    }
+
+    .steps {
+        gap: 3%;
+    }
+
+    .steps p {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    .steps a {
+        font-size: 15px;
+    }
+    
+    .publishstep figure {
+        width: 50%;
+        margin-left: 4rem;
+    }
+    
+    .promote figure {
+        width: 50%;
+        margin-left: 4rem;
+    }
+    
+    .capture figure {
+        width: 50%;
+        margin-left: 4rem;
+    }
+
+    .capture p {
+        padding-bottom: 1rem;
+    }
+    
+    .measure figure {
+        width: 50%;
+        margin-left: 4rem;
+    }
 }
