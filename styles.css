@@ -678,6 +678,46 @@ li{
         font-size: 150%;
         line-height: 1;
     }
+    
+    .magazine {
+        width: 80%;
+        align-items:  center;
+        left: 10.2%;
+    }
+
+    .magazine-text {
+        padding: 2rem 1rem 0 1rem;
+    }
+
+    .magazine-text h3 {
+        font-size: 90%;
+    }
+
+    .magazine-text h2 {
+        font-size: 100%;
+        margin-bottom: 8%;
+        line-height: 1.2;
+    }
+
+    .infor p {
+        font-size: 90%;
+        line-height: 1.2;
+    }
+
+    .mambe-logo {
+        width: 85px;
+        height: 85px;
+    }
+
+    .cases {
+        padding-top: .5rem;
+        margin-bottom: 0;
+    }
+
+    .cases button {
+        font-size: 80%;
+        padding: .5rem 1rem;
+    }
 
     .brands {
         padding: 0;
@@ -1259,7 +1299,7 @@ li{
 
     .steps {
         gap:2.5%;
-        height: 75vh;
+        height: 80vh;
     }
 
     .steps p {
