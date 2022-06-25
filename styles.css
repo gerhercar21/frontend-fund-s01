@@ -1101,3 +1101,197 @@ li{
         margin-left: 4rem;
     }
 }
+
+/* Tablets */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .main {
+        margin-top: 5.5rem;
+    }
+
+    .main input {
+        margin: 0 1% 0 0;
+    }
+
+    .main  h1 {
+        font-size: 300%;
+    }
+
+    .main p {
+        font-size: 120%;
+        margin: 2rem;
+    }
+
+    .promo {
+        flex-direction: column-reverse;
+        width: 90%;
+        margin: 5rem 2rem 2rem 2rem;
+    }
+    .explanatory-video {
+        margin-top: 5%;
+    }
+
+    .ecommerce {
+        padding: 5%;
+        align-items: flex-start;
+    }
+
+    .ecommerce h2 {
+        font-size: 200%;
+        line-height: 1.2;
+        padding-bottom: 3%;
+    }
+
+    .ecommerce p {
+        font-size: 90%;
+        padding-bottom: 3%;
+    }
+
+    .brands {
+        padding-right: 7%;
+    }
+
+    .brands img {
+        margin-top: 2rem;
+    }
+
+    .magazine {
+        width: 90%;
+        right: -5%;
+    }
+    
+    .magazine-photos img {
+        max-height: none;
+    }
+
+    .magazine-text {
+        padding: 2rem 1rem 0rem 1rem;
+    }
+
+    .magazine-text h3 {
+        font-size: 90%;
+    }
+
+    .magazine-text h2 {
+        font-size: 100%;
+        margin-bottom: 8%;
+    }
+
+    .mambe-logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .infor {
+        font-size: 90%;
+    }
+
+    .cases {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .cases button {
+        padding: 5%;
+    }
+
+    .services {
+        grid-template: repeat(4, 1fr) / 1fr;
+        padding: 4rem 2.5rem 4rem 2.5rem;
+        gap: 2rem;
+        height: 100%;
+    }
+
+    .services h2 {
+        font-size: 140%;
+    }
+
+    .services a {
+        font-size: 100%;
+    }
+
+    .services p {
+        font-size: 100%;
+    }
+
+    .box-card {
+        align-items: center;
+    }
+
+    .box-img img {
+        width: 120%;
+        opacity: 0.8;
+    }
+
+    .box-content1 figure img,
+    .box-content2 figure img,
+    .box-content3 figure img,
+    .box-content4 figure img {
+        padding: 0.5vh;
+    }
+    
+    .header-howtodo h2 {
+        font-size: 280%;
+    }
+
+    .header-howtodo p,
+    .header-howtodo a {
+        font-size: 110%;
+    }
+
+    .header-howtodo p {
+        max-width: 90%;
+    }
+
+    .header-howtodo button {
+        margin-top: 1%;
+        margin-left: 37%;
+        font-size: 14px;
+        padding: .5rem 1rem;
+    }
+
+    .steps {
+        display: grid;
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        padding: 4%;
+    }
+
+    .steps {
+        gap:2.5%;
+        height: 75vh;
+    }
+
+    .steps p {
+        font-size: 100%;
+        margin-bottom: 5px;
+    }
+
+    .steps a {
+        font-size: 100%;
+    }
+    
+    .publishstep figure {
+        width: 50%;
+        margin-left: 4rem;
+    }
+    
+    .promote figure {
+        width: 50%;
+        margin-left: 4rem;
+    }
+    
+    .capture figure {
+        width: 50%;
+        margin-left: 4rem;
+    }
+
+    .capture p {
+        padding-bottom: .5rem;
+    }
+    
+    .measure figure {
+        width: 50%;
+        margin-left: 4rem;
+    }
+}
