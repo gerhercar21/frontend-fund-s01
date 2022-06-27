@@ -949,6 +949,10 @@ li{
 /* Vista Landscape */
 
 @media (min-width: 576px) and (max-width: 767px) {
+    .navbar,
+    .actions {
+      text-align: center;
+    }
 
     .main {
         margin-top: 5rem;
@@ -1151,6 +1155,10 @@ li{
 /* Tablets */
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .navbar,
+    .actions {
+      text-align: center;
+    }
     
     .main {
         margin-top: 5.5rem;

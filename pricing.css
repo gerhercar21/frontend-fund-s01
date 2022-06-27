@@ -11,11 +11,9 @@ h1 {
     font-size: 50px;
 }
 
-p {
-    color: #8b8b8bcc;
+main {
+    margin-top: 285px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;    
-    font-size: 20px;
 }
 
 button {
@@ -46,19 +44,10 @@ li{
     z-index: 1030;
 }
 
-.header > * {
-    display: inline-block;
-    font-size: 16px;
-    line-height: 45px;
-    height: 100%;
-    vertical-align: middle;
-}
-
 .logo {
     width: 15%;
 }
 
-/* Aquí tuve dudas con la alineación, me quedó más arriba que el menú y tuve que agregar margin, pero estoy seguro que no es recomendable */
 .logo > img {
     width: 15%;
     margin: 15%;
@@ -93,9 +82,29 @@ li{
 }
 
 .header p {
+    color: #8b8b8bcc;
     margin-right: 20%;
     margin-left: 20%;
     line-height: 1.5;
+    font-size: 1rem;
+    margin-bottom: 10vh;
+}
+
+.platforms h5 {
+    color: #025157;
+    font-size: .8rem;
+    opacity: .8;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 20% 5% 20%;
+}
+
+.btn-group button {
+    background-color: #ece9e9f6;
+    color: black;
 }
 
 /* Celular */
