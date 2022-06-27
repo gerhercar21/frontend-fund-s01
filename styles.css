@@ -276,7 +276,7 @@ li{
 }
 
 .mambe-logo img {
-    width: 100%;
+    max-width: 75%;
     max-height: 16vw;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
