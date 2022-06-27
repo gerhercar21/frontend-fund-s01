@@ -1,0 +1,108 @@
+body {
+    background-color: #FFFbF7;
+}
+
+/* Se agregaron Fonts de Google aquí y en h1, en la de aquí la inicial era Verdana  */
+
+h1 {
+    color: #025157;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+p {
+    color: #8b8b8bcc;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;    
+    font-size: 20px;
+}
+
+button {
+    color: #FFF;
+    background-color: #025157;
+    border: none;
+}
+
+.header {
+    margin: 10%;
+    font-size: 0;
+    font-family: sans-serif;
+    height: 45px;
+}
+
+li{
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+    z-index: 1030;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 45px;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 15%;
+}
+
+/* Aquí tuve dudas con la alineación, me quedó más arriba que el menú y tuve que agregar margin, pero estoy seguro que no es recomendable */
+.logo > img {
+    width: 15%;
+    margin: 15%;
+}
+
+.navbar {
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+  
+.actions {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+  
+.actions > * {
+    margin: 0 10px;
+}
+  
+.actions a {
+    color: #67b54b;
+}
+  
+.actions button {
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.header p {
+    margin-right: 20%;
+    margin-left: 20%;
+    line-height: 1.5;
+}
+
+/* Celular */
+
+@media (max-width: 575px) {
+    .navbar,
+    .actions {
+      text-align: center;
+    }
+}

@@ -317,7 +317,7 @@ li{
 
 .cases {
     padding: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     background-color: unset;
     border-top: unset;
 }
