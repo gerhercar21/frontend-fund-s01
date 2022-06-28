@@ -266,3 +266,141 @@ li{
         border-bottom-right-radius: 0;
     } */
 }
+
+/* Landscape */
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .navbar,
+    .actions {
+      text-align: center;
+    }
+
+    .header {
+        margin: 0;
+        width: 100%;
+    }
+
+    .header h1 {
+        padding-top: 10%;
+        font-size: 30px;
+    }
+
+    .header p {
+        font-size: 13px;
+        margin: 2% 5% 5% 5%;
+    }
+
+    .btn-group {
+        padding: 1% 10%;   
+    }
+    
+    .btn-secondary {
+        font-size: 10px;
+    }
+
+    .platforms h5 {
+        font-size: .6rem;
+        margin-bottom: 0;
+    }
+
+    .container {
+        margin-top: 15rem;
+        padding: 5%;
+        gap: 2;
+    }
+
+    .container, .container-sm {
+        max-width: none;
+    }
+
+    .row {
+        --bs-gutter-x: 0
+    }
+
+    .faq h2 > button {
+        font-size: .6rem;
+    }
+
+    .col {
+        padding: 0;
+    }
+
+    .accordion-body {
+        font-size: 70%;
+        padding: .9rem .5rem;
+    }
+
+    .faq h2 > button {
+        font-size: 1rem;
+        padding: .5rem .5rem;
+    }
+}
+
+/* Tabletas */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar,
+    .actions {
+      text-align: center;
+    }
+
+    .header {
+        margin: 0;
+        width: 100%;
+    }
+
+    .header h1 {
+        padding-top: 10%;
+        font-size: 3rem;
+    }
+
+    .header p {
+        font-size: .9rem;
+        margin: 2% 5% 4% 5%;
+    }
+
+    .btn-group {
+        padding: 1% 10%;   
+    }
+    
+    .btn-secondary {
+        font-size: 10px;
+    }
+
+    .platforms h5 {
+        font-size: .6rem;
+        margin-bottom: 0;
+    }
+
+    .container {
+        margin-top: 15rem;
+        padding: 5%;
+        gap: 2;
+    }
+
+    .container, .container-sm {
+        max-width: none;
+    }
+
+    .row {
+        --bs-gutter-x: 0
+    }
+
+    .faq h2 > button {
+        font-size: .6rem;
+    }
+
+    .col {
+        padding: 0;
+    }
+
+    .accordion-body {
+        font-size: 70%;
+        padding: .9rem .5rem;
+    }
+
+    .faq h2 > button {
+        font-size: 1rem;
+        padding: .5rem .5rem;
+    }
+}
