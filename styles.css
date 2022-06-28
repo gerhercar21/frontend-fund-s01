@@ -28,12 +28,12 @@ button {
     border: none;
 }
 
-.header {
+/* .header {
     margin: 40px 20px 20px;
     font-size: 0;
     font-family: sans-serif;
     height: 45px;
-}
+} */
 
 li{
     display: inline;
@@ -41,32 +41,32 @@ li{
     margin-right: 25px;
 }
 
-.fixed-header {
+/* .fixed-header {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     background-color: #fffbf7;
     z-index: 1030;
-}
+} */
 
-.header > * {
+/* .header > * {
     display: inline-block;
     font-size: 16px;
     line-height: 45px;
     height: 100%;
     vertical-align: middle;
-}
+} */
 
-.logo {
+/* .logo {
     width: 15%;
-}
+} */
 
 /* Aquí tuve dudas con la alineación, me quedó más arriba que el menú y tuve que agregar margin, pero estoy seguro que no es recomendable */
-.logo > img {
+/* .logo > img {
     width: 15%;
     margin: 15%;
-}
+} */
 
 .navbar {
     text-align: center;

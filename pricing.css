@@ -26,7 +26,7 @@ button {
     margin: 10%;
     font-size: 0;
     font-family: sans-serif;
-    height: 45px;
+    height: 3rem;
 }
 
 li{
@@ -87,7 +87,7 @@ li{
     margin-left: 20%;
     line-height: 1.5;
     font-size: 1rem;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
 }
 
 .platforms h5 {
@@ -114,8 +114,8 @@ li{
 }
 
 .faq {
-    margin-top: 20%;
-    padding-bottom: 120px;
+    margin-top: 17%;
+    padding: 0;
 }
   
 .faq h2 {
@@ -130,13 +130,27 @@ li{
   
 .faq h2 > button {
     color: #025157;
-    font-size: 28px;
-    font-weight: 900;
+    font-size: 90%;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
 }
+/* 
+.accordion-button:focus {
+    background-color: #037179;
+    box-shadow: 0 0 0.25rem #037179
+}
+
+.accordion-button {
+    border-color: #025157;
+}
+
+.accordion-button:focus h2 {
+    color: white;
+} */
   
-.faq .card .card-body a {
+/* .faq .card .card-body a {
     color: #6abf4b;
-}
+} */
 
 .accordion-body a {
     color: #6abf4b;
@@ -146,8 +160,14 @@ li{
     display: grid;
     grid-template: 1fr / repeat(2, 1fr);
     gap: 1rem;
-    padding: 5% 1%;
-    margin: 5%;
+    padding: 3% 1%;
+    position: relative;
+}
+
+.platforms {
+    margin: 5% 5%;
+    width: 100%;
+    display: inline;
 }
 
 /* Celular */
@@ -158,22 +178,44 @@ li{
       text-align: center;
     }
 
+    .header {
+        margin: 0;
+        width: 100%;
+    }
+
     .header h1 {
-        padding-top: 10%;
+        padding-top: 20%;
+        font-size: 30px;
     }
 
     .header p {
-        font-size: 15px;
-        margin: 0;
+        font-size: 13px;
+        margin: 5%;
     }
 
     .btn-group {
-        padding: 1%;   
+        padding: 1% 10%;   
+    }
+    
+    .btn-secondary {
+        font-size: 10px;
+    }
+
+    .platforms h5 {
+        font-size: .6rem;
+        margin-bottom: 0;
     }
 
     .container {
-        margin-top: 100%;
-        padding: 1%;
+        grid-template-columns: 2fr;
+        margin: 15rem 0 0 0;
+        padding: 6%;
+        gap: 0;
+        display: block;
+    }
+
+    .row {
+        --bs-gutter-x: 0
     }
 
     .faq h2 > button {
@@ -183,4 +225,40 @@ li{
     .col {
         padding: 0;
     }
+
+    .row .accordion-item:last-of-type {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .accordion-body {
+        font-size: 70%;
+        padding: .9rem .5rem;
+    }
+
+    .faq h2 > button {
+        font-size: .9rem;
+        padding: .5rem .5rem;
+        align-items: flex-end;
+    }
+
+    #segundaColumna .accordion-item:first-of-type {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        /* border-top: 0px; */
+    }
+
+    .row .accordion-item:last-of-type {
+        border-bottom: none;
+    }
+
+    /* .accordion-item:first-of-type .accordion-button.collapsed {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .accordion-item:last-of-type .accordion-button.collapsed {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    } */
 }
