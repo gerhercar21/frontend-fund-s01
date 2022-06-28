@@ -244,6 +244,11 @@ li{
         border-bottom-right-radius: 0;
     }
 
+    .row .accordion-item:last-of-type .accordion-button {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
     .accordion-body {
         font-size: 70%;
         padding: .9rem .5rem;
@@ -259,6 +264,11 @@ li{
         border-top-left-radius: 0;
         border-top-right-radius: 0;
         /* border-top: 0px; */
+    }
+
+    #segundaColumna .accordion-item:first-of-type .accordion-button {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
     }
 
     .row .accordion-item:last-of-type {
