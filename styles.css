@@ -20,6 +20,29 @@ p {
 
 .main button {
     margin-bottom: 1rem;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    margin-right: 0;
+    margin-left: -10px;
+    padding: .5rem 1rem;
+}
+
+.main input, button {
+    border-radius: 8px;
+}
+
+form input, button {
+    height: 55px;
+}
+
+.main input {
+    padding: .5rem 1rem;
+    margin-right: 0;
+    border: 1px solid #b6b6b6
+}
+
+.main input :active {
+    border: #025157;
 }
 
 button {
@@ -159,16 +182,44 @@ li{
     font-family: Arial, Helvetica, sans-serif;
 }
   
-.publish > form {
+/* .publish > form {
     display: flex;
-  }
+  } */
   
 .publish > form p {
     color: #025157;
-    margin-right: 18px;
+    /* margin-right: 18px; */
     margin-top: 0%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.publish button {
+    margin-bottom: 1rem;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    margin-right: 0;
+    margin-left: -10px;
+    padding: .5rem 1rem;
+}
+
+.publish input, button {
+    border-radius: 8px;
+}
+
+form input, button {
+    height: 55px;
+}
+
+.publish input {
+    padding: .5rem 1rem;
+    margin-right: 0;
+    border: 1px solid #b6b6b6
+}
+
+.publish input :active {
+    border: #025157;
 }
   
 .promo {
