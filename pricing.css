@@ -1,5 +1,7 @@
 body {
     background-color: #FFFbF7;
+    margin: 0;
+    padding: 0;
 }
 
 /* Se agregaron Fonts de Google aquí y en h1, en la de aquí la inicial era Verdana  */
@@ -23,10 +25,10 @@ button {
 }
 
 .header {
-    margin: 10%;
+    margin: 10% 5%;
     font-size: 0;
     font-family: sans-serif;
-    height: 3rem;
+    height: 100vh;
 }
 
 li{
@@ -97,18 +99,20 @@ li{
     line-height: 1.5;
     font-size: 1rem;
     margin-bottom: 5vh;
+    text-align: center;
 }
 
 .platforms h5 {
     color: #025157;
     font-size: .8rem;
     opacity: .8;
+    text-align: center;
 }
 
 .btn-group {
     display: flex;
     justify-content: space-between;
-    padding: 1% 20% 5% 20%;
+    padding: 0 20% 2% 20%;
 }
 
 .btn-group button {
@@ -123,7 +127,6 @@ li{
 }
 
 .faq {
-    margin-top: 17%;
     padding: 0;
 }
   
@@ -165,12 +168,23 @@ li{
     color: #6abf4b;
 }
 
+.row {
+    --bs-gutter-x: 0
+}
+
+.accordion-body {
+    font-size: 1rem;
+}
+
 .container {
     display: grid;
     grid-template: 1fr / repeat(2, 1fr);
     gap: 1rem;
     padding: 3% 1%;
     position: relative;
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 100%;
 }
 
 .platforms {
@@ -221,7 +235,6 @@ li{
 
     .container {
         grid-template-columns: 2fr;
-        margin: 15rem 0 0 0;
         padding: 6%;
         gap: 0;
         display: block;
@@ -250,7 +263,7 @@ li{
     }
 
     .accordion-body {
-        font-size: 70%;
+        font-size: .71rem;
         padding: .9rem .5rem;
     }
 
@@ -323,7 +336,6 @@ li{
     }
 
     .container {
-        margin-top: 15rem;
         padding: 5%;
         gap: 2;
     }
@@ -345,7 +357,7 @@ li{
     }
 
     .accordion-body {
-        font-size: 70%;
+        font-size: .71rem;
         padding: .9rem .5rem;
     }
 
@@ -392,7 +404,6 @@ li{
     }
 
     .container {
-        margin-top: 15rem;
         padding: 5%;
         gap: 2;
     }
@@ -414,7 +425,7 @@ li{
     }
 
     .accordion-body {
-        font-size: 70%;
+        font-size: .71rem;
         padding: .9rem .5rem;
     }
 
