@@ -178,6 +178,10 @@ li{
       text-align: center;
     }
 
+    .navbar #imagotipo {
+        display: none;
+    }
+
     .header {
         margin: 0;
         width: 100%;

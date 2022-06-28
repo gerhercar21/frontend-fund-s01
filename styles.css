@@ -607,6 +607,10 @@ li{
       text-align: center;
     }
 
+    .navbar #imagotipo {
+        display: none;
+    }
+
     h1 {
         font-size: 30px;
     }
@@ -1313,7 +1317,7 @@ li{
 
     .steps {
         gap:2.5%;
-        height: 80vh;
+        height: 100%;
     }
 
     .steps p {
