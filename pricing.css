@@ -81,6 +81,15 @@ li{
     border-radius: 5px;
 }
 
+.accordion-button:not(.collapsed){
+    color: white;
+    background-color: #26686d;
+}
+
+.accordion-button:focus {
+    box-shadow: inset 0 0 0 0.25rem #68a2ac90;
+}
+
 .header p {
     color: #8b8b8bcc;
     margin-right: 20%;
@@ -336,7 +345,7 @@ li{
     }
 }
 
-/* Tabletas */
+/* iPhone X + landscape */
 
 @media (min-width: 768px) and (max-width: 991px) {
     .navbar,
