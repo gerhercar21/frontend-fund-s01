@@ -76,4 +76,90 @@
   text-decoration: underline;
 }
 
+.tryMatcha {
+  background-color: #96d178;
+  padding: 5% 5% 2%;
+  margin-top: -30px;
+}
+.tryMatcha h1 {
+  font-size: 60px;
+}
+.tryMatcha .signup-form input {
+  padding: 0.5rem 1rem;
+  margin-right: 0;
+  border: 1px solid #b6b6b6;
+  border-radius: 8px;
+  height: 55px;
+  width: 60%;
+  max-width: 250px;
+}
+.tryMatcha .signup-form button {
+  margin-bottom: 1rem;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  margin-right: 0;
+  margin-left: -12px;
+  padding: 0.8rem 1.2rem;
+  height: 55px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 16px;
+}
+.tryMatcha p {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.freeaccount {
+  padding: 5% 10% 5%;
+  margin: 0;
+  max-width: unset;
+}
+.freeaccount .box {
+  background-color: #025157;
+  padding: 5%;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.freeaccount .box form + p {
+  color: #b3cbcd;
+  font-size: 14px;
+}
+.freeaccount .col-sm p {
+  text-align: left;
+  font-size: 17px;
+  color: #ffffff;
+}
+.freeaccount .col-sm h2 {
+  font-size: 60px;
+  font-family: "Bebas Neue", cursive;
+  line-height: 1;
+}
+.freeaccount .col-sm a {
+  color: #67b54b;
+  text-decoration: none;
+}
+.freeaccount .signup-form input {
+  padding: 0.5rem 1rem;
+  margin-right: 0;
+  border: 1px solid #b6b6b6;
+  border-radius: 8px;
+  height: 55px;
+  width: 55%;
+  max-width: 250px;
+}
+.freeaccount .signup-form button {
+  margin-bottom: 1rem;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  margin-right: 0;
+  margin-left: -12px;
+  padding: 0.8rem 1.2rem;
+  height: 55px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 16px;
+  background-color: #67b54b;
+}
+
 /*# sourceMappingURL=output.css.map */

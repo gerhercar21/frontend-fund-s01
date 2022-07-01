@@ -96,3 +96,101 @@
         }
     }
 }
+
+.tryMatcha {
+    background-color: #96d178;
+    padding: 5% 5% 2%;
+    margin-top: -30px;
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .signup-form {
+        input {
+            padding: 0.5rem 1rem;
+            margin-right: 0;
+            border: 1px solid #b6b6b6;
+            border-radius: 8px;
+            height: 55px;
+            width: 60%;
+            max-width: 250px;
+        }
+        button {
+            margin-bottom: 1rem;
+            border-bottom-left-radius: 0;
+            border-top-left-radius: 0;
+            margin-right: 0;
+            margin-left: -12px;
+            padding: .8rem 1.2rem;
+            height: 55px;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+            font-size: 16px;
+        }
+    }
+    p {
+        color: $white;
+        font-size: 14px;
+    }
+}
+
+.freeaccount {
+    padding: 5% 10% 5%;
+    margin: 0;
+    max-width: unset;
+
+    .box {
+        background-color: $dark-green-title;
+        padding: 5%;
+        border-radius: 10px;
+        color: $white;
+
+        form + p {
+            color: #b3cbcd;
+            font-size: 14px;
+        }
+    }
+
+    .col-sm {
+        p {
+            text-align: left;
+            font-size: 17px;
+            color: $white;
+        }
+        h2 {
+            font-size: 60px;
+            font-family: $font-title;
+            line-height: 1;
+        }
+        a {
+            color: $green-a;
+            text-decoration: none;
+        }
+    }
+
+    .signup-form {
+        input {
+            padding: 0.5rem 1rem;
+            margin-right: 0;
+            border: 1px solid #b6b6b6;
+            border-radius: 8px;
+            height: 55px;
+            width: 55%;
+            max-width: 250px;
+        }
+        button {
+            margin-bottom: 1rem;
+            border-bottom-left-radius: 0;
+            border-top-left-radius: 0;
+            margin-right: 0;
+            margin-left: -12px;
+            padding: .8rem 1.2rem;
+            height: 55px;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+            font-size: 16px;
+            background-color: $green-a;
+        }
+    }
+}
