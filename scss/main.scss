@@ -5,6 +5,10 @@
     max-width: unset;
     padding: 5% 10%;
 
+    @media (max-width: 575px) {
+        padding: 5% 10% 18% 10%;
+    }
+
     .title {
         @extend %base-title;
     }
@@ -104,6 +108,10 @@
 
     h1 {
         font-size: 60px;
+
+        @media (max-width: 575px) {
+            font-size: 45px;
+        }
     }
 
     .signup-form {
@@ -115,6 +123,10 @@
             height: 55px;
             width: 60%;
             max-width: 250px;
+
+            @media (max-width: 575px) {
+                margin-right: -30px;
+            }
         }
         button {
             margin-bottom: 1rem;
@@ -136,7 +148,7 @@
 }
 
 .freeaccount {
-    padding: 5% 10% 5%;
+    padding: 5% 10% 15%;
     margin: 0;
     max-width: unset;
 
@@ -157,11 +169,29 @@
             text-align: left;
             font-size: 17px;
             color: $white;
+            @media (max-width: 575px) {
+                font-size: 14px;
+            }
+            @media (min-width: 576px) and (max-width: 767px) {
+                font-size: 14px;
+            }
+            @media (min-width: 768px) and (max-width: 991px) {
+                font-size: 95%;
+            }
         }
         h2 {
             font-size: 60px;
             font-family: $font-title;
             line-height: 1;
+            @media (max-width: 575px) {
+                font-size: 40px;;
+            }
+            @media (min-width: 576px) and (max-width: 767px) {
+                font-size: 30px;
+            }
+            @media (min-width: 768px) and (max-width: 991px) {
+                font-size: 40px;
+            }
         }
         a {
             color: $green-a;
@@ -170,6 +200,19 @@
     }
 
     .signup-form {
+        @media (max-width: 575px) {
+            display: flex;
+            justify-content: space-between;
+        }
+        @media (min-width: 576px) and (max-width: 767px) {
+            display: flex;
+            justify-content: space-between;
+        }
+        @media (min-width: 768px) and (max-width: 991px) {
+            display: flex;
+            justify-content: space-between;
+        }
+
         input {
             padding: 0.5rem 1rem;
             margin-right: 0;
@@ -178,6 +221,21 @@
             height: 55px;
             width: 55%;
             max-width: 250px;
+            @media (max-width: 575px) {
+                margin-right: -30px;
+                font-size: 90%;
+                padding: .2rem .7rem;
+                width: 70%;
+            }
+            @media (min-width: 576px) and (max-width: 767px) {
+                margin-right: -30px;
+                font-size: 70%;
+                padding: .2rem .7rem;
+                width: 70%;
+            }
+            @media (min-width: 768px) and (max-width: 991px) {
+                font-size: 90%;
+            }
         }
         button {
             margin-bottom: 1rem;
@@ -191,6 +249,18 @@
             border-bottom-right-radius: 8px;
             font-size: 16px;
             background-color: $green-a;
+            @media (max-width: 575px) {
+                padding: .8rem .5rem;
+                font-size: 90%;
+            }
+            @media (min-width: 576px) and (max-width: 767px) {
+                padding: .8rem .5rem;
+                font-size: 70%;
+                max-width: 100px;
+            }
+            @media (min-width: 768px) and (max-width: 991px) {
+                font-size: 90%;
+            }
         }
     }
 }
