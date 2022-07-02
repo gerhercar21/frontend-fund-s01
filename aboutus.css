@@ -1,0 +1,89 @@
+body ::selection {
+    background-color: #a3e48c;
+    color: black;
+}
+
+body {
+    background-color: #FFFbF7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Se agregaron Fonts de Google aquí y en h1, en la de aquí la inicial era Verdana  */
+
+h1 {
+    color: #025157;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+main {
+    margin-top: 285px;
+    text-align: center;
+}
+
+button {
+    color: #FFF;
+    background-color: #025157;
+    border: none;
+}
+
+.header {
+    margin: 10% 5%;
+    font-size: 0;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+li{
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
+    z-index: 1030;
+}
+
+.logo {
+    width: 15%;
+}
+
+.logo > img {
+    width: 15%;
+    margin: 15%;
+}
+
+.navbar {
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+  
+.actions {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+  
+.actions > * {
+    margin: 0 10px;
+}
+  
+.actions a {
+    color: #67b54b;
+}
+  
+.actions button {
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+}

@@ -1,3 +1,24 @@
+#circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #025157;
+    animation-name: testanimation;
+    animation-duration: 6s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    z-index: -2;
+}
+
+@keyframes testanimation {
+    0% {background-color: #025157; opacity: 0.5; left: 0;top: 100px;}
+    25% {background-color: #67b54b; opacity: 0.5; left: 300px;top: 400px;}
+    50% { background-color: #b6b6b6 ; opacity: 0.5; left: 600px; top: 100px;}
+    75% {background-color: #a1d683; opacity: 0.5; left: 900px; top: 400px;}
+    100% {background-color: #a3e48c; opacity: 0.5; left: 1200px; top: 100px;}
+}
+
 body ::selection {
     background-color: #a3e48c;
     color: black;
@@ -5,6 +26,10 @@ body ::selection {
 
 body {
     background-color: #FFFbF7;
+}
+
+.text-button:hover {
+    background-color: #67b54b;
 }
 
 /* Se agregaron Fonts de Google aquí y en h1, en la de aquí la inicial era Verdana  */
@@ -139,7 +164,7 @@ li{
 } */
 
 .main {
-    margin-top: 140px;
+    /* margin-top: 140px; */
     text-align: center;
 }
 
