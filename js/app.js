@@ -1,1 +1,1 @@
-alert("Bienvenido/a a Matcha. No olvides iniciar con tu prueba gratis");
+alert("Páginas habilitadas: Platform, Pricing y About");
