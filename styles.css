@@ -701,9 +701,9 @@ form input, button {
         margin: 1rem;
     }
 
-    .main {
+    /* .main {
         margin-top: 6rem;
-    }
+    } */
 /* 
     .fixed-header {
         position: fixed;
@@ -1043,9 +1043,9 @@ form input, button {
       text-align: center;
     }
 
-    .main {
+    /* .main {
         margin-top: 5rem;
-    }
+    } */
 
     .main  h1 {
         font-size: 200%;
@@ -1249,9 +1249,9 @@ form input, button {
       text-align: center;
     }
     
-    .main {
+    /* .main {
         margin-top: 5.5rem;
-    }
+    } */
 
     .main input {
         margin: 0 1% 0 0;
