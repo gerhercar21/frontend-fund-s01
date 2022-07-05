@@ -421,7 +421,7 @@ body > * a:hover {
   color: #4a4a4a;
 }
 .footer li :hover {
-  text-decoration: underline;
+  color: #67b54b;
 }
 .footer .media {
   display: flex;
