@@ -1,8 +1,13 @@
 @use  'global' as *;
 
 body > * {
+    a {
+        text-decoration: none;
+        color: $green-a;
+    }
     a:hover {
         text-decoration: underline;
+        color: $green-a;
     }
 }
 
@@ -103,6 +108,14 @@ body > * {
 
         .read-more {
             text-decoration: underline;
+
+            & a {
+                color: black;
+            }
+
+            a:hover {
+                color: $green-a;
+            }
         }
     }
 }
