@@ -683,9 +683,9 @@ form input, button {
 /* Celular */
 
 @media (max-width: 575px) {
-    footer {
+    /* footer {
         display: none;
-    }
+    } */
 
     #circle {
         display: none;

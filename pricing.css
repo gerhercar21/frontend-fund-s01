@@ -3,6 +3,10 @@ body ::selection {
     color: black;
 }
 
+a:hover {
+        text-decoration: underline;
+}
+
 body {
     background-color: #FFFbF7;
     margin: 0;

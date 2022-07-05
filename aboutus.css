@@ -15,6 +15,15 @@ body {
   color: #025157;
   font-weight: 500;
 }
+@media (max-width: 575px) {
+  .navbar .navbar,
+.navbar .actions {
+    text-align: center;
+  }
+  .navbar #imagotipo {
+    display: none;
+  }
+}
 .navbar li {
   display: inline;
   margin-left: 25px;
@@ -25,10 +34,10 @@ body {
   text-align: right;
   font-size: 14px;
   font-weight: 600;
-  margin: 0 10px;
 }
 .actions a {
   color: #67b54b;
+  margin: 0 10px;
 }
 .actions button {
   color: white;
@@ -36,6 +45,7 @@ body {
   padding: 12px 14px;
   border: 0;
   border-radius: 5px;
+  margin: 0 10px;
 }
 
 .top-features {
@@ -59,7 +69,7 @@ body {
 
 .feature__title__anchor {
   text-decoration: none;
-  color: inherit;
+  color: #025157;
   font-weight: 500;
   font-size: 24px;
 }
@@ -76,6 +86,182 @@ body {
 }
 .feature__title__anchor .feature__title:hover {
   color: #67b54b;
+  text-decoration: underline;
+  text-decoration-color: #67b54b;
+}
+
+.footer {
+  padding: 5% 10% 2%;
+  margin: 0;
+  max-width: unset;
+}
+@media (max-width: 575px) {
+  .footer {
+    padding: 3% 6% 10%;
+    margin-top: 10%;
+  }
+}
+.footer h2 {
+  font-family: "Bebas Neue", cursive;
+  color: #025157;
+}
+.footer p {
+  font-size: 16px;
+  text-align: left;
+  color: #4a4a4a;
+}
+@media (max-width: 575px) {
+  .footer p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 575px) {
+  .footer .signup-form {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer .signup-form {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer .signup-form {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.footer .signup-form input {
+  padding: 0.5rem 1rem;
+  margin-right: 0;
+  border: 1px solid #b6b6b6;
+  border-radius: 8px;
+  height: 55px;
+  width: 55%;
+  max-width: 250px;
+}
+@media (max-width: 575px) {
+  .footer .signup-form input {
+    margin-right: -30px;
+    font-size: 90%;
+    padding: 0.2rem 0.7rem;
+    width: 70%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer .signup-form input {
+    margin-right: -30px;
+    font-size: 70%;
+    padding: 0.2rem 0.7rem;
+    width: 70%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer .signup-form input {
+    font-size: 90%;
+  }
+}
+.footer .signup-form button {
+  margin-bottom: 1rem;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  margin-right: 0;
+  margin-left: -12px;
+  padding: 0.8rem 1.2rem;
+  height: 55px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 16px;
+  background-color: #025157;
+}
+@media (max-width: 575px) {
+  .footer .signup-form button {
+    padding: 0.8rem 0.5rem;
+    font-size: 90%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer .signup-form button {
+    padding: 0.8rem 0.5rem;
+    font-size: 70%;
+    max-width: 100px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer .signup-form button {
+    font-size: 90%;
+  }
+}
+.footer .signup-form .text-button:hover {
+  background-color: #67b54b;
+}
+.footer h4 {
+  text-transform: uppercase;
+  color: #025157;
+  font-weight: 700;
+  font-size: 13px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.footer .col-sm ul {
+  font-size: 18px;
+  padding: 0;
+}
+@media (max-width: 575px) {
+  .footer .col-sm ul {
+    font-size: 13px;
+  }
+}
+.footer li {
+  margin-bottom: 20px;
+  display: block;
+  margin-left: 0;
+}
+@media (max-width: 575px) {
+  .footer li {
+    margin-bottom: 10px;
+  }
+}
+.footer li a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+.footer li :hover {
+  text-decoration: underline;
+}
+.footer .media {
+  display: flex;
+}
+@media (max-width: 575px) {
+  .footer .media {
+    flex-direction: column;
+  }
+}
+.footer .social {
+  margin-left: 28px;
+}
+@media (max-width: 575px) {
+  .footer .social {
+    margin-left: 0;
+    align-items: left;
+  }
+}
+.footer .social a {
+  margin-right: 20px;
+  text-decoration: none;
+}
+.footer .col-4 p {
+  text-align: right;
+  margin: 15px 0px 16px;
+}
+@media (max-width: 575px) {
+  .footer .col-4 p {
+    width: 100%;
+    font-size: 10px;
+    text-align: right;
+  }
 }
 
 /*# sourceMappingURL=aboutus.css.map */

@@ -281,6 +281,11 @@ body > * {
     margin: 0;
     max-width: unset;
 
+    @media (max-width: 575px) {
+        padding: 3% 6% 10%;
+        margin-top: 10%;
+    }
+
     h2 {
         font-family: $font-title;
         color: $dark-green-title;
@@ -290,20 +295,24 @@ body > * {
         font-size: 16px;
         text-align: left;
         color: #4a4a4a;
+
+        @media (max-width: 575px) {
+            font-size: 13px;
+        }
     }
 
     .signup-form {
         @media (max-width: 575px) {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
         }
         @media (min-width: 576px) and (max-width: 767px) {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
         }
         @media (min-width: 768px) and (max-width: 991px) {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
         }
 
         input {
@@ -372,12 +381,19 @@ body > * {
     .col-sm ul {
         font-size: 18px;
         padding: 0;
+
+        @media (max-width: 575px) {
+            font-size: 13px;
+        }
     }
 
     li {
         margin-bottom: 20px;
         display: block;
         margin-left: 0;
+        @media (max-width: 575px) {
+            margin-bottom: 10px;
+        }
 
         a {
             text-decoration: none;
@@ -391,10 +407,19 @@ body > * {
 
     .media {
         display: flex;
+
+        @media (max-width: 575px) {
+            flex-direction: column;
+        }
     }
 
     .social {
         margin-left: 28px;
+
+        @media (max-width: 575px) {
+            margin-left: 0;
+            align-items: left;
+        }
 
         a {
             margin-right: 20px;
@@ -405,5 +430,11 @@ body > * {
     .col-4 p {
         text-align: right;
         margin: 15px 0px 16px;
+
+        @media (max-width: 575px) {
+            width: 100%;
+            font-size: 10px;
+            text-align: right;
+        }
     }
 }
