@@ -431,8 +431,14 @@ body > * a:hover {
     flex-direction: column;
   }
 }
+.footer .social svg:hover {
+  fill: #67b54b;
+}
 .footer .social {
   margin-left: 28px;
+}
+.footer .social svg {
+  fill: #135359;
 }
 @media (max-width: 575px) {
   .footer .social {

@@ -271,7 +271,17 @@ body {
     }
 
     .social {
+        svg:hover {
+            fill: $green-a;
+        }
+    }
+
+    .social {
         margin-left: 28px;
+
+        svg {
+            fill:#135359;
+        }
 
         @media (max-width: 575px) {
             margin-left: 0;
