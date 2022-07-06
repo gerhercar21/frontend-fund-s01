@@ -453,6 +453,7 @@ body > * a:hover {
 .footer .col-4 p {
   text-align: right;
   margin: 15px 0px 16px;
+  font-size: 80%;
 }
 @media (max-width: 575px) {
   .footer .col-4 p {
@@ -460,6 +461,9 @@ body > * a:hover {
     font-size: 10px;
     text-align: right;
   }
+}
+.footer #footerinfo {
+  margin-left: 8.333333%;
 }
 
 /*# sourceMappingURL=output.css.map */
