@@ -52,19 +52,48 @@ body {
   padding: 30px 0 65px;
   margin-top: 100px;
 }
+@media (max-width: 575px) {
+  .top-features {
+    padding-bottom: 30px;
+  }
+}
 
 .section-title {
   text-align: center;
   margin-bottom: 60px;
+}
+@media (max-width: 575px) {
+  .section-title {
+    margin-top: -15%;
+  }
 }
 .section-title h1 {
   color: #025157;
   font-family: "Bebas Neue", cursive;
   font-size: 50px;
 }
+@media (max-width: 575px) {
+  .section-title h1 {
+    font-size: 30px;
+  }
+}
+.section-title p {
+  color: rgba(139, 139, 139, 0.8);
+}
+@media (max-width: 575px) {
+  .section-title p {
+    font-size: 15px;
+  }
+}
 
 .feature__img {
   border-radius: 9px;
+}
+@media (max-width: 575px) {
+  .feature__img {
+    width: 80%;
+    margin-left: 10%;
+  }
 }
 .feature__img img {
   width: 100%;
@@ -94,6 +123,24 @@ body {
   color: #67b54b;
   text-decoration: underline;
   text-decoration-color: #67b54b;
+}
+@media (max-width: 575px) {
+  .feature__title__anchor .feature__title {
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .feature__cont {
+    font-size: 14px;
+    margin-bottom: 3rem;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 .footer {
@@ -173,21 +220,19 @@ body {
   }
 }
 .footer .signup-form button {
+  margin-bottom: 1rem;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
   margin-right: 0;
   margin-left: -12px;
   padding: 0.8rem 1.2rem;
   height: 55px;
-  width: 23%;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   font-size: 16px;
   background-color: #025157;
-  color: white;
   border: none;
-  display: inline-flex;
-  transition: 0.3s ease all;
+  color: #ffffff;
 }
 @media (max-width: 575px) {
   .footer .signup-form button {
@@ -206,29 +251,6 @@ body {
   .footer .signup-form button {
     font-size: 90%;
   }
-}
-.footer .signup-form .text-button span {
-  transition: 0.4s ease-in-out;
-  position: absolute;
-  left: 28.7%;
-}
-.footer .signup-form:hover span {
-  left: 27.5%;
-}
-.footer .signup-form .text-button .bi {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  z-index: 2;
-  left: 30%;
-  transition: 0.3s ease-in-out all;
-  opacity: 0;
-  width: 4%;
-  height: 4%;
-}
-.footer .signup-form:hover .bi {
-  left: calc(35% - 30px);
-  opacity: 1;
 }
 .footer .signup-form .text-button:hover {
   background-color: #67b54b;
