@@ -1,105 +1,10 @@
-body {
-  background-color: #fffbf7 !important;
-}
-
-.logo {
-  width: 15%;
-}
-.logo img {
-  width: 15%;
-  margin: 15%;
-}
-
-.navbar {
-  text-align: center;
-  color: #025157;
-  font-weight: 500;
-}
-@media (max-width: 575px) {
-  .navbar .navbar,
-.navbar .actions {
-    text-align: center;
-  }
-  .navbar #imagotipo {
-    display: none;
-  }
-}
-.navbar li {
-  display: inline;
-  margin-left: 25px;
-  margin-right: 25px;
-}
-
-.actions {
-  text-align: right;
-  font-size: 14px;
-  font-weight: 600;
-}
-.actions a {
-  color: #67b54b;
-  margin: 0 10px;
-}
-.actions button {
-  color: white;
-  background-color: #67b54b;
-  padding: 12px 14px;
-  border: 0;
-  border-radius: 5px;
-  margin: 0 10px;
-}
-
-.top-features {
-  padding: 30px 0 65px;
-  margin-top: 100px;
-}
-
-.section-title {
-  text-align: center;
-  margin-bottom: 60px;
-}
-.section-title h1 {
-  color: #025157;
-  font-family: "Bebas Neue", cursive;
-  font-size: 50px;
-}
-
-.feature__img {
-  border-radius: 9px;
-}
-.feature__img img {
-  width: 100%;
-  border-radius: 9px;
-  border: 1px solid #dadada;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
-}
-
-.feature__title__anchor {
-  text-decoration: none;
-  color: #025157;
-  font-weight: 500;
-  font-size: 24px;
-}
-.feature__title__anchor .feature__title {
-  margin-top: 50px;
-  font-weight: 500;
-  font-size: 24px;
-  font-family: "Open Sans", sans-serif;
-  margin-bottom: 35px;
-  text-decoration: none;
-  text-shadow: #025157 1px 1px 2px;
-  transition: color 0.3s ease-in-out;
-  transition: font-size 3s;
-}
-.feature__title__anchor .feature__title:hover {
-  color: #67b54b;
-  text-decoration: underline;
-  text-decoration-color: #67b54b;
-}
-
 .footer {
   padding: 5% 10% 2%;
   margin: 0;
   max-width: unset;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 @media (max-width: 575px) {
   .footer {
@@ -173,21 +78,17 @@ body {
   }
 }
 .footer .signup-form button {
+  margin-bottom: 1rem;
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
   margin-right: 0;
   margin-left: -12px;
   padding: 0.8rem 1.2rem;
   height: 55px;
-  width: 23%;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   font-size: 16px;
   background-color: #025157;
-  color: white;
-  border: none;
-  display: inline-flex;
-  transition: 0.3s ease all;
 }
 @media (max-width: 575px) {
   .footer .signup-form button {
@@ -207,29 +108,6 @@ body {
     font-size: 90%;
   }
 }
-.footer .signup-form .text-button span {
-  transition: 0.4s ease-in-out;
-  position: absolute;
-  left: 28.7%;
-}
-.footer .signup-form:hover span {
-  left: 27.5%;
-}
-.footer .signup-form .text-button .bi {
-  display: flex;
-  align-items: center;
-  position: absolute;
-  z-index: 2;
-  left: 30%;
-  transition: 0.3s ease-in-out all;
-  opacity: 0;
-  width: 4%;
-  height: 4%;
-}
-.footer .signup-form:hover .bi {
-  left: calc(35% - 30px);
-  opacity: 1;
-}
 .footer .signup-form .text-button:hover {
   background-color: #67b54b;
 }
@@ -238,11 +116,13 @@ body {
   color: #025157;
   font-weight: 700;
   font-size: 13px;
+  text-align: left;
   margin-bottom: 20px;
 }
 @media (max-width: 575px) {
   .footer h4 {
-    display: contents;
+    text-align: center;
+    width: 94%;
   }
 }
 .footer .col-sm ul {
@@ -294,7 +174,6 @@ body {
   .footer .social {
     margin-left: 0;
     align-items: left;
-    margin-bottom: 10%;
   }
 }
 .footer .social a {
@@ -337,14 +216,14 @@ body {
     margin-left: 0;
   }
 }
-.footer .footerinfo {
+.footer #footerinfo {
   margin-left: 8.333333%;
 }
 @media (max-width: 575px) {
-  .footer .footerinfo {
+  .footer #footerinfo {
     text-align: center;
     margin-left: 0%;
   }
 }
 
-/*# sourceMappingURL=aboutus.css.map */
+/*# sourceMappingURL=pricingsass.css.map */

@@ -297,6 +297,10 @@ body > * {
     @media (max-width: 575px) {
         padding: 3% 6% 10%;
         margin-top: 10%;
+        
+        .row {
+            flex-direction: column;
+        }        
     }
 
     h2 {
@@ -389,6 +393,11 @@ body > * {
         font-size: 13px;
         text-align: left;
         margin-bottom: 20px;
+
+        @media (max-width: 575px) {
+            text-align: center;
+            width: 94%;
+        }
     }
 
     .col-sm ul {
@@ -397,6 +406,8 @@ body > * {
 
         @media (max-width: 575px) {
             font-size: 13px;
+            margin-bottom: 10%;
+            margin-top: 5%;
         }
     }
 
@@ -422,7 +433,7 @@ body > * {
         display: flex;
 
         @media (max-width: 575px) {
-            flex-direction: column;
+            margin-bottom: 8%;
         }
     }
     
@@ -442,27 +453,59 @@ body > * {
         @media (max-width: 575px) {
             margin-left: 0;
             align-items: left;
+            // margin-bottom: 10%;
         }
 
         a {
             margin-right: 20px;
             text-decoration: none;
+
+            @media (max-width: 575px) {
+                margin-left: 20px;
+            }
         }
     }
 
-    .col-4 p {
-        text-align: right;
-        margin: 15px 0px 16px;
-        font-size: 80%;
+    .col-4 {
+        width: 50%;
 
         @media (max-width: 575px) {
-            width: 100%;
-            font-size: 10px;
+            text-align: center;
+            line-height: 1;
+            flex-direction: column;
+            // margin-bottom: 0;
+            width: 80%;
+        }
+
+        p {
             text-align: right;
+            margin: 15px 0px 16px;
+            font-size: 80%;
+
+            @media (max-width: 575px) {
+                display: contents;
+            }
+        }
+
+        & a img {
+            @media (max-width: 575px) {
+                margin-bottom: 20%;
+            }
+        }
+    }
+
+    .col-sm {
+        @media (max-width: 575px) {
+            margin-left: 0;
         }
     }
 
     #footerinfo {
         margin-left: 8.333333%;
+
+        @media (max-width: 575px) {
+            text-align: center;
+            margin-left: 0%;
+        }
     }
 }

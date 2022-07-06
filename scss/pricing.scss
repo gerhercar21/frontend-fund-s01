@@ -1,125 +1,21 @@
 @use  'global' as *;
 
-body {
-    background-color: #fffbf7 !important;
-}
-
-.logo {
-    width: 15%;
-
-    & img {
-        width: 15%;
-        margin: 15%;
-    }
-}
-
-.navbar {
-    text-align: center;
-    color: #025157;
-    font-weight: 500;
-
-    @media (max-width: 575px) {
-        .navbar,
-        .actions {
-          text-align: center;
-        }
-    
-        #imagotipo {
-            display: none;
-        }
-    }
-
-    li {
-        display: inline;
-        margin-left: 25px;
-        margin-right: 25px;
-    }
-}
-  
-.actions {
-    text-align: right;
-    font-size: 14px;
-    font-weight: 600;
-
-    & a {
-        color: #67b54b;
-        margin: 0 10px;
-    }
-
-    & button {
-        color: white;
-        background-color: #67b54b;
-        padding: 12px 14px;
-        border: 0;
-        border-radius: 5px;
-        margin: 0 10px;
-    }
-}
-
-.top-features {
-    padding: 30px 0 65px;
-    margin-top: 100px;
-}
-  
-  .section-title {
-    text-align: center;
-    margin-bottom: 60px;
-  
-    h1 {
-      color: #025157;
-      font-family: $font-title;
-      font-size: 50px;
-    }
-}
-  
-.feature__img {
-    border-radius: 9px;
-
-    img {
-      width: 100%;
-      border-radius: 9px;
-      border: 1px solid #dadada;
-      box-shadow: 0 8px 24px rgb(0 0 0 / 10%);
-    }
-}
-  
-.feature__title__anchor {
-    text-decoration: none;
-    color: #025157;
-    font-weight: 500;
-    font-size: 24px;
-  
-    .feature__title {
-      margin-top: 50px;
-      font-weight: 500;
-      font-size: 24px;
-      font-family: 'Open Sans',sans-serif;
-      margin-bottom: 35px;
-      text-decoration: none;
-      text-shadow: #025157 1px 1px 2px;
-      transition: color .3s ease-in-out;
-      transition: font-size 3s;
-
-      &:hover {
-        color:#67b54b;
-        text-decoration:underline;
-        text-decoration-color: $green-a;
-      }
-    }
-}
 
 .footer {
     padding: 5% 10% 2%;
     margin: 0;
     max-width: unset;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 
     @media (max-width: 575px) {
         padding: 3% 6% 10%;
         margin-top: 10%;
-
+        
         .row {
             flex-direction: column;
-        }
+        }        
     }
 
     h2 {
@@ -176,21 +72,17 @@ body {
             }
         }
         button {
+            margin-bottom: 1rem;
             border-bottom-left-radius: 0;
             border-top-left-radius: 0;
             margin-right: 0;
             margin-left: -12px;
             padding: .8rem 1.2rem;
             height: 55px;
-            width: 23%;
             border-top-right-radius: 8px;
             border-bottom-right-radius: 8px;
             font-size: 16px;
             background-color: $dark-green-title;
-            color: white;
-            border: none;
-            display: inline-flex;
-            transition: .3s ease all;
             @media (max-width: 575px) {
                 padding: .8rem .5rem;
                 font-size: 90%;
@@ -204,32 +96,6 @@ body {
                 font-size: 90%;
             }
         }
-        .text-button span {
-            transition: .4s ease-in-out;
-            position: absolute;
-            left: 28.7%;
-        }
-        &:hover span {
-            left: 27.5%;
-        }
-
-        .text-button .bi {
-            display: flex;
-            align-items: center;
-            position: absolute;
-            z-index: 2;
-            left: 30%;
-            transition: .3s ease-in-out all;
-            opacity: 0;
-            width: 4%;
-            height: 4%;
-        }
-        
-        &:hover .bi {
-            left: calc(35% - 30px);
-            opacity: 1;
-        }
-
         .text-button:hover {
             background-color: $green-a;
         }
@@ -240,10 +106,12 @@ body {
         color: $dark-green-title;
         font-weight: 700;
         font-size: 13px;
+        text-align: left;
         margin-bottom: 20px;
 
         @media (max-width: 575px) {
-            display: contents;
+            text-align: center;
+            width: 94%;
         }
     }
 
@@ -283,7 +151,7 @@ body {
             margin-bottom: 8%;
         }
     }
-
+    
     .social {
         svg:hover {
             fill: $green-a;
@@ -300,7 +168,6 @@ body {
         @media (max-width: 575px) {
             margin-left: 0;
             align-items: left;
-            margin-bottom: 10%;
         }
 
         a {
@@ -320,6 +187,7 @@ body {
             text-align: center;
             line-height: 1;
             flex-direction: column;
+            // margin-bottom: 0;
             width: 80%;
         }
 
@@ -346,9 +214,9 @@ body {
         }
     }
 
-    .footerinfo {
+    #footerinfo {
         margin-left: 8.333333%;
-        
+
         @media (max-width: 575px) {
             text-align: center;
             margin-left: 0%;
