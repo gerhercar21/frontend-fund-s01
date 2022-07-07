@@ -19,6 +19,10 @@
         }        
     }
 
+    @media (min-width: 576px) and (max-width: 991px) {
+        padding: 5% 3% 2%;
+    }
+
     h2 {
         font-family: $font-title;
         color: $dark-green-title;
@@ -32,18 +36,14 @@
         @media (max-width: 575px) {
             font-size: 13px;
         }
+        
+        @media (min-width: 576px) and (max-width: 991px) {
+            font-size: 15px;
+        }
     }
 
     .signup-form {
         @media (max-width: 575px) {
-            display: flex;
-            justify-content: space-around;
-        }
-        @media (min-width: 576px) and (max-width: 767px) {
-            display: flex;
-            justify-content: space-around;
-        }
-        @media (min-width: 768px) and (max-width: 991px) {
             display: flex;
             justify-content: space-around;
         }
@@ -125,6 +125,10 @@
             margin-bottom: 10%;
             margin-top: 5%;
         }
+        
+        @media (min-width: 576px) and (max-width: 991px) {
+            font-size: 13px;
+        }
     }
 
     li {
@@ -200,6 +204,11 @@
             @media (max-width: 575px) {
                 display: contents;
             }
+
+            @media (min-width: 576px) and (max-width: 991px) {
+                margin: 1rem 1rem 1rem 0;
+                font-size: 70%;
+            }
         }
 
         & a img {
@@ -222,5 +231,13 @@
             text-align: center;
             margin-left: 0%;
         }
+
+        @media (min-width: 576px) and (max-width: 991px) {
+            margin-left: 5%;
+        }
     }
+}
+
+.header {
+    margin-bottom: 10%;
 }

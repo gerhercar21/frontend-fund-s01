@@ -16,6 +16,11 @@
     flex-direction: column;
   }
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .footer {
+    padding: 5% 3% 2%;
+  }
+}
 .footer h2 {
   font-family: "Bebas Neue", cursive;
   color: #025157;
@@ -30,19 +35,12 @@
     font-size: 13px;
   }
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .footer p {
+    font-size: 15px;
+  }
+}
 @media (max-width: 575px) {
-  .footer .signup-form {
-    display: flex;
-    justify-content: space-around;
-  }
-}
-@media (min-width: 576px) and (max-width: 767px) {
-  .footer .signup-form {
-    display: flex;
-    justify-content: space-around;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
   .footer .signup-form {
     display: flex;
     justify-content: space-around;
@@ -137,6 +135,11 @@
     margin-top: 5%;
   }
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .footer .col-sm ul {
+    font-size: 13px;
+  }
+}
 .footer li {
   margin-bottom: 20px;
   display: block;
@@ -207,6 +210,12 @@
     display: contents;
   }
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .footer .col-4 p {
+    margin: 1rem 1rem 1rem 0;
+    font-size: 70%;
+  }
+}
 @media (max-width: 575px) {
   .footer .col-4 a img {
     margin-bottom: 20%;
@@ -225,6 +234,15 @@
     text-align: center;
     margin-left: 0%;
   }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .footer #footerinfo {
+    margin-left: 5%;
+  }
+}
+
+.header {
+  margin-bottom: 10%;
 }
 
 /*# sourceMappingURL=pricingsass.css.map */
