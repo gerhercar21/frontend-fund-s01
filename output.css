@@ -22,9 +22,34 @@ body > * a:hover {
     padding: 5% 10% 18% 10%;
   }
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .blog {
+    padding-bottom: 10%;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .blog .col .card {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .blog .row {
+    flex-direction: column;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .blog .title {
+    text-align: center;
+  }
+}
 .blog .process-list {
   margin-top: 40px;
   margin-bottom: 36px;
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .blog .process-list {
+    margin-left: 20%;
+  }
 }
 .blog .process-list .process {
   margin-bottom: 25px;
@@ -40,6 +65,14 @@ body > * a:hover {
   margin: 0;
   text-align: left;
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .blog .process-list .process .process-description h3 {
+    font-size: 150%;
+  }
+  .blog .process-list .process .process-description p {
+    font-size: 100%;
+  }
+}
 .blog .process-list .process .process-icon {
   width: 60px;
   height: 60px;
@@ -49,6 +82,12 @@ body > * a:hover {
 .blog .process-list .process .process-icon img {
   height: 100%;
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .blog .process-list .process .process-icon {
+    width: 50px;
+    height: 50px;
+  }
+}
 .blog button {
   height: auto;
   border-radius: 8px;
@@ -56,12 +95,26 @@ body > * a:hover {
   width: 180px;
   margin-bottom: 15px;
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .blog button {
+    margin-left: 35%;
+    margin-bottom: 10%;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .blog .card img {
+    height: 50vh;
+  }
+}
 .blog .card * {
   text-align: left;
 }
 .blog .card .card-title {
   color: #4a4a4a;
   font-size: 24px;
+}
+.blog .card .card-title:hover {
+  color: #67b54b;
 }
 .blog .card .card-text {
   color: #4a4a4a;
