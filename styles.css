@@ -321,19 +321,19 @@ form input, button {
     background-color: #a1d683;
     align-items: center;
     justify-content: space-around;
-    padding: 5% 15%;
+    padding: 5% 10%;
 }
 
 .brands {
     flex: 2;
-    padding-right: 100px;
+    padding-right: 88px;
 }
 
 .brands h2 {
     font-family: 'Bebas Neue', cursive;
     font-size: 51px;
     line-height: 61px;
-    margin-bottom: 0%;
+    margin-bottom: 5%;
     color: #025157;
 }
 
@@ -341,7 +341,7 @@ form input, button {
     color: #343434;
     font-size: 18px;
     line-height: 1.5;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -353,12 +353,12 @@ form input, button {
     padding: 12px 12px 12px 12px;
     font-weight: 600;
     margin-left: 0;
+    margin-bottom: 2rem;
 }
 
 .brands img {
-    width: 500px;
-    max-width: 100%;
-    margin-top: 32px;
+    width: 105%;
+    height: 105%;
 }
 
 .carrusel {
@@ -381,9 +381,10 @@ form input, button {
 
 .magazine-photos img {
     width: 100%;
-    max-height: 16vw;
+    max-height: 22vw;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    object-fit: cover;
 }
 
 .mambe-logo {
