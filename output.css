@@ -25,6 +25,8 @@ body > * a:hover {
 @media (min-width: 576px) and (max-width: 991px) {
   .blog {
     padding-bottom: 10%;
+    padding-left: 8%;
+    padding-right: 8%;
   }
 }
 @media (min-width: 576px) and (max-width: 991px) {
@@ -34,25 +36,20 @@ body > * a:hover {
 }
 @media (min-width: 576px) and (max-width: 991px) {
   .blog .row {
-    flex-direction: column;
-  }
-}
-@media (min-width: 576px) and (max-width: 991px) {
-  .blog .title {
-    text-align: center;
+    flex-direction: row;
   }
 }
 .blog .process-list {
   margin-top: 40px;
   margin-bottom: 36px;
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .blog .process-list {
-    margin-left: 20%;
-  }
-}
 .blog .process-list .process {
   margin-bottom: 25px;
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .blog .process-list .process {
+    margin-bottom: 45px;
+  }
 }
 .blog .process-list .process > div > h3 {
   color: #025157;
@@ -73,6 +70,11 @@ body > * a:hover {
     font-size: 100%;
   }
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .blog .process-list .process .process-description h3 {
+    font-size: 130%;
+  }
+}
 .blog .process-list .process .process-icon {
   width: 60px;
   height: 60px;
@@ -82,12 +84,6 @@ body > * a:hover {
 .blog .process-list .process .process-icon img {
   height: 100%;
 }
-@media (min-width: 576px) and (max-width: 991px) {
-  .blog .process-list .process .process-icon {
-    width: 50px;
-    height: 50px;
-  }
-}
 .blog button {
   height: auto;
   border-radius: 8px;
@@ -96,14 +92,9 @@ body > * a:hover {
   margin-bottom: 15px;
 }
 @media (min-width: 576px) and (max-width: 991px) {
-  .blog button {
-    margin-left: 35%;
-    margin-bottom: 10%;
-  }
-}
-@media (min-width: 576px) and (max-width: 991px) {
   .blog .card img {
-    height: 50vh;
+    height: 40vh;
+    object-fit: cover;
   }
 }
 .blog .card * {
@@ -116,28 +107,59 @@ body > * a:hover {
 .blog .card .card-title:hover {
   color: #67b54b;
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .blog .card .card-title {
+    font-size: 20px;
+  }
+}
 .blog .card .card-text {
   color: #4a4a4a;
   font-size: 18px;
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .blog .card .card-text {
+    font-size: 14px;
+  }
 }
 .blog .card .category {
   color: #67b54b;
   text-align: left;
   font-size: 14px;
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .blog .card .category {
+    font-size: 12px;
+  }
+}
 .blog .card .read-time {
   color: #979797;
   font-size: 14px;
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .blog .card .read-time {
+    font-size: 12px;
+  }
 }
 .blog .card .author p {
   color: #4a4a4a;
   font-size: 14px;
   margin: 15px 0 16px 8px;
 }
+@media (min-width: 576px) and (max-width: 991px) {
+  .blog .card .author p {
+    font-size: 12px;
+  }
+}
 .blog .card .author img {
   border-radius: 50%;
   width: 35px;
   height: 35px;
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .blog .card .author img {
+    width: 30px;
+    height: 30px;
+  }
 }
 .blog .card .read-more {
   text-decoration: underline;

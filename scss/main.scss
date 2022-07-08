@@ -22,6 +22,8 @@ body > * {
 
     @media (min-width: 576px) and (max-width: 991px) {
         padding-bottom: 10%;
+        padding-left: 8%;
+        padding-right: 8%;
     }
 
     .col .card {
@@ -32,28 +34,24 @@ body > * {
 
     .row {
         @media (min-width: 576px) and (max-width: 991px) {
-            flex-direction: column;
+            flex-direction: row;
         }
     }
 
     .title {
         @extend %base-title;
-
-        @media (min-width: 576px) and (max-width: 991px) {
-            text-align: center;
-        }
     }
 
     .process-list {
         margin-top: 40px;
         margin-bottom: 36px;
 
-        @media (min-width: 576px) and (max-width: 991px) {
-            margin-left: 20%;
-        }
-
         .process {
             margin-bottom: 25px;
+
+            @media (min-width: 576px) and (max-width: 991px) {
+                margin-bottom: 45px;
+            }
 
             & > div {
                 & > h3 {
@@ -79,6 +77,12 @@ body > * {
                         font-size: 100%;
                     }
                 }
+
+                @media (min-width: 576px) and (max-width: 991px) {
+                    h3 {
+                        font-size: 130%;
+                    }
+                }
             }
 
             .process-icon {
@@ -91,11 +95,6 @@ body > * {
                 img {
                     height: 100%;
                 }
-
-                @media (min-width: 576px) and (max-width: 991px) {
-                    width: 50px;
-                    height: 50px;
-                }
             }
         }
     }
@@ -106,16 +105,12 @@ body > * {
         padding: 12px;
         width: 180px;
         margin-bottom: 15px;
-        
-        @media (min-width: 576px) and (max-width: 991px) {
-            margin-left: 35%;
-            margin-bottom: 10%;
-        }
     }
 
     .card img {
         @media (min-width: 576px) and (max-width: 991px) {
-            height: 50vh;
+            height: 40vh;
+            object-fit: cover;
         }
     }
 
@@ -130,22 +125,38 @@ body > * {
             &:hover {
                 color: $green-a;
             }
+
+            @media (min-width: 576px) and (max-width: 991px) {
+                font-size: 20px;
+            }
         }
 
         .card-text {
             color: $gray-prim;
             font-size: 18px;
+
+            @media (min-width: 576px) and (max-width: 991px) {
+                font-size: 14px;
+            }
         }
 
         .category {
             color: $green-a;
             text-align: left;
             font-size: 14px;
+
+            @media (min-width: 576px) and (max-width: 991px) {
+                font-size: 12px;
+            }
         }
 
         .read-time {
             color: $gray-sec;
             font-size: 14px;
+
+            @media (min-width: 576px) and (max-width: 991px) {
+                font-size: 12px;
+            }
         }
 
         .author {
@@ -153,12 +164,22 @@ body > * {
             color: $gray-prim;
             font-size: 14px;
             margin: 15px 0 16px 8px;
+
+            @media (min-width: 576px) and (max-width: 991px) {
+                font-size: 12px;
+            }
             }
 
             img {
                 border-radius: 50%;
                 width: 35px;
                 height: 35px;
+
+
+            @media (min-width: 576px) and (max-width: 991px) {
+                width: 30px;
+                height: 30px;
+            }
             }
         }
 
