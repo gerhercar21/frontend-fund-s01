@@ -168,6 +168,7 @@ li{
     text-align: center;
     color: #025157;
     font-weight: 500;
+    transition: top 0.7s;
 }
   
 .actions {
